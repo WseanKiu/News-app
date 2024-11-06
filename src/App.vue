@@ -1,8 +1,23 @@
 <script setup lang="ts">
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
+<template>
+  <div
+    class="min-h-screen bg-gray-100 text-gray-800 flex items-center justify-center p-4"
+  >
+    <div class="w-full max-w-5xl">
+      <router-view />
+    </div>
+  </div>
+</template>
+
+<style scoped>
+/* No additional styles required as Tailwind handles layout */
+</style>
+
+<!--
 <template>
   <header>
     <img
@@ -88,4 +103,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->

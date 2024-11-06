@@ -1,10 +1,14 @@
-import './assets/main.css'
+import './assets/tailwind.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
+
+// import fetchLatestArticles from '@/features/article/composables/useArticles';
+
+// await fetchLatestArticles();
 
 const app = createApp(App)
 
